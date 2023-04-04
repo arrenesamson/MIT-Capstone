@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_authenticator as stauth
+import authenticator as stauth
 from streamlit_option_menu import option_menu
 import pagesnew as pg
 import yaml
