@@ -70,12 +70,12 @@ def login():
         config['preauthorized']
     )
 
-    name, authentication_status, username = authenticator.login(
+    name_, authentication_status, username = authenticator.login(
         'Login', 'main', logo="Prediction-removebg.png", logo_width=200)
 
     if authentication_status:
         authenticator.logout('Logout', 'main')
-        st.write(f'Welcome *{name}*')
+        st.write(f'Welcome *{name_}*')
         # st.title('Some Cool content')
 
         with st.sidebar:
