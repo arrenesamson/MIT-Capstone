@@ -8,3 +8,6 @@ pickleshare==0.7.5
 Pillow==9.4.0
 jwt
 bcrypt
+datetime
+extra_streamlit_components
+typing
