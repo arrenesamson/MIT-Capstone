@@ -11,4 +11,4 @@ bcrypt
 datetime
 extra_streamlit_components
 typing
-yaml
+PyYAML
