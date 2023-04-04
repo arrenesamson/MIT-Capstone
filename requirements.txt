@@ -3,7 +3,6 @@ numpy==1.24.2
 pyecharts==2.0.1
 streamlit==1.14.0
 streamlit-aggrid==0.3.3
-streamlit-authenticator==0.2.1
 streamlit-option-menu==0.3.2
 pickleshare==0.7.5
 Pillow==9.4.0
