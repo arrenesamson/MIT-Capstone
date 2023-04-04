@@ -116,7 +116,24 @@ def predict():
         if csv_name:
             df_upload = pd.read_csv(df_upload)
             df_upload.to_csv(f"data_predict\{csv_name}.csv")
+
+
+def predict2():
+    st.write("# Predict")
     
+    # Get uploaded file and file name
+    uploaded_file = st.file_uploader('Upload a CSV file', type='csv')
+    csv_name = st.text_input("Name your dataset")
+    
+    # If file is uploaded and name is specified
+    if uploaded_file is not None and csv_name != '':
+        # Save the file to a new file with the specified name
+        filepath = os.path.join('data_predict', f"{csv_name}.csv")
+        with open(filepath, 'wb') as f:
+            f.write(uploaded_file.read())
+        st.success(f"Saved file to {filepath}")
+
+
 def result():
     st.write(f"""
         # Result
