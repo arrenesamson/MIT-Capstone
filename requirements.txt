@@ -14,3 +14,4 @@ typing
 PyYAML
 imblearn
 xgboost==1.7.4
+scikit-learn==1.2.0
