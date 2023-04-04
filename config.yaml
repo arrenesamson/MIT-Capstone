@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    admin:
+      email: admin@gmail.com
+      name: administrator
+      password: $2b$12$z0O/bJ4oxaRV1wi.cfZDt.5K3FsI2.3uYqDh8wJbnXct/H86JwUxS # To be replaced with hashed password
+    superadmin:
+      email: superadmin@gmail.com
+      name: super admin
+      password: $2b$12$5d/ZTSLSvLH2bp24Yl1JFut1gT49m7MAaYXWiWr0K5p..j58TL2ri # To be replaced with hashed password
+cookie:
+  expiry_days: 0
+  key: "unique_key" # Must be string
+  name: streamlit_app_unique
+preauthorized:
+  emails:
+  - admin@gmail.com

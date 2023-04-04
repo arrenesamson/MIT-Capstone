@@ -5,7 +5,7 @@ import pagesnew as pg
 
 
 st.set_page_config(layout="wide",
-                   page_title="Prediction",
+                   page_title="Employability Predictor",
                     page_icon="🧊")
 st.markdown("""
 <style>
@@ -57,10 +57,11 @@ st.markdown("""
 
 ############################
 #password implementation
-def check_password():
+def login():
     """Returns `True` if the user had a correct password."""
 
     def password_entered():
+        
         
         """Checks whether a password entered by the user is correct."""
         if (
@@ -97,7 +98,7 @@ def check_password():
         # Password correct.
         return True
 
-if check_password():
+if login():
     
     ############################
     #title for the page
