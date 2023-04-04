@@ -92,7 +92,7 @@ def login():
         if selected == "Dashboard":
             pg.dashboard()
         if selected == "Predict":
-            pg.predict()
+            pg.predict2()
         if selected == "Result":
             pg.result()
         # if selected =="Setting":
