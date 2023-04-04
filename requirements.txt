@@ -12,3 +12,4 @@ datetime
 extra_streamlit_components
 typing
 PyYAML
+imblearn
